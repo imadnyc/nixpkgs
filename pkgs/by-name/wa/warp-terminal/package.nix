@@ -45,7 +45,7 @@ meta = with lib; {
   license = licenses.unfree;
   sourceProvenance = with lib.sourceTypes; [ binaryNativeCode ];
   maintainers = with maintainers; [ emilytrau Enzime ];
-  platforms = platforms.darwin;
+  platforms = platforms.darwin ++ [ "x86_64-linux" ];
 };
 
 in 
