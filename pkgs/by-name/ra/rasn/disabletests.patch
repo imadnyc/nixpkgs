@@ -1,0 +1,13 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index 3ec42b2..e6bdede 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -38,7 +38,6 @@ jer = ["std", "jzon"]
+ name = "criterion"
+ path = "benches/criterion.rs"
+ harness = false
+-test = true
+ 
+ [[bench]]
+ name = "iai"
+
